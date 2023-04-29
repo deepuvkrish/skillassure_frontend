@@ -1,0 +1,14 @@
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav ul li a.active {
+    color: blue;
+    text-decoration: underline;
+  }
+  

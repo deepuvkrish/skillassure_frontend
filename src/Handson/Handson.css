@@ -1,0 +1,116 @@
+.handson_head {
+  /* font-family: "Poppins";
+  
+    font-style: normal; */
+
+  font-weight: 600;
+
+  font-size: 22px;
+
+  line-height: 36px;
+
+  color: #1d2939;
+}
+
+.Handson {
+  text-align: left;
+
+  padding: left;
+
+  background: #f5f5f5;
+
+  position: absolute;
+}
+
+.handson_para {
+  width: 910px;
+
+  height: 60px;
+
+  font-family: "Poppins";
+
+  font-style: normal;
+
+  font-weight: 600;
+
+  font-size: 18px;
+
+  line-height: 30px;
+
+  /* or 167% */
+
+  display: flex;
+
+  align-items: center;
+
+  /* Gray/800 */
+
+  color: #1d2939;
+}
+
+.handson_para1 {
+  width: 910px;
+
+  height: 102px;
+
+  /* font-family: "Poppins";*/
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 34px;
+
+  /* or 212% */
+
+  display: flex;
+
+  align-items: center;
+
+  /* Gray/800 */
+
+  color: #1d2939;
+}
+
+#mark_buttonl {
+  background: linear-gradient(98.94deg, #02407c -10.01%, #0192d9 107.52%);
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+
+  text-fill-color: transparent;
+
+  border-color: solid 2px
+    linear-gradient(98.94deg, #02407c -10.01%, #0192d9 107.52%);
+
+  color: linear-gradient(98.94deg, #02407c -10.01%, #0192d9 107.52%);
+}
+
+#startcode_button {
+  width: 120px;
+
+  height: 42px;
+
+  /* font-family: "Poppins";
+  
+    font-style: normal; */
+
+  font-weight: 500;
+
+  font-size: 15px;
+
+  line-height: 28px;
+
+  margin-left: 24px;
+
+  outline: none;
+
+  /* Skillassure */
+
+  background: linear-gradient(98.94deg, #02407c -10.01%, #0192d9 107.52%);
+}

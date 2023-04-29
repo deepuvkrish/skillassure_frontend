@@ -1,0 +1,172 @@
+/* Remove default styles of jQuery UI accordion */
+.sidebar_box{
+  position: relative;
+
+  width: 353px;
+
+  height: 762px;
+
+  left: 1227px;
+
+  top: 144px;
+
+  padding: 20px 20px;
+
+  background: #ffffff;
+
+  /* card-1 */
+
+  box-shadow: 0px 11px 25px rgba(12, 12, 13, 0.1);
+
+  border-radius: 15px;
+
+  text-align: left;
+}
+#sidebar .ui-accordion-header {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+#sidebar .ui-accordion-content {
+  padding: 0;
+  border: none;
+}
+
+/* Style the accordion headers */
+#sidebar .accordion-header {
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+margin-top: 20px;
+
+width: 313px;
+height: 50px;
+
+background: white#dfd9d9;
+/* midnite blue */
+
+border-left: 2px solid #014384;
+/* Course */
+
+box-shadow: 0px 0px 12px -2px rgba(16, 24, 40, 0.1), 0px 1px 8px -2px rgba(16, 24, 40, 0.06);
+border-radius: 0px 4px 4px 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+#sidebar .BiChevronDown {
+  font-size: 1.2em;
+  margin-left: 62px;
+  transition: transform 0.2s ease-in-out;
+  justify-content: space-between;
+}
+#sidebar .BiChevronDowno7 {
+  font-size: 1.2em;
+  margin-left: 129px;
+  transition: transform 0.2s ease-in-out;
+  justify-content: space-between;
+}
+.BiChevronDownf{
+  font-size: 1.2em;
+  margin-left: 149px;
+  transition: transform 0.2s ease-in-out;
+  justify-content: space-between;
+}
+.BiChevronDownk{
+  font-size: 1.2em;
+  margin-left: 89px;
+  transition: transform 0.2s ease-in-out;
+  justify-content: space-between;
+}
+.BiChevronDownc{
+  font-size: 1.2em;
+  margin-left: 114px;
+  transition: transform 0.2s ease-in-out;
+  justify-content: space-between;
+}
+#sidebar .accordion-header.active .BiChevronDown {
+  transform: rotate(180deg);
+}
+#sidebar .BiChevronDown1 {
+  font-size: 1.2em;
+  margin-left: 192px;
+  transition: transform 0.2s ease-in-out;
+  justify-content: space-between;
+}
+#sidebar .accordion-header.active .BiChevronDown1 {
+  transform: rotate(180deg);
+}
+#sidebar .BiChevronDown2 {
+  font-size: 1.2em;
+  margin-left: 215px;
+  transition: transform 0.2s ease-in-out;
+  justify-content: space-between;
+}
+#sidebar .accordion-header.active .BiChevronDown2 {
+  transform: rotate(180deg);
+}
+#sidebar .BiChevronDown3 {
+  font-size: 1.2em;
+  margin-left: 147px;
+  transition: transform 0.2s ease-in-out;
+  justify-content: space-between;
+}
+#sidebar .accordion-header.active .BiChevronDown3 {
+  transform: rotate(180deg);
+}
+
+/* Style the accordion content */
+#sidebar .accordion-content {
+  display: none;
+  padding: 10px 15px;
+  height: 345px;
+}
+#sidebar .accordion-content.active {
+  display: block;
+}
+#sidebar .dropdown-item {
+  display: block;
+  padding: 5px 0;
+  color: #333;
+  text-decoration: none;
+}
+#sidebar .dropdown-item:hover {
+  background-color: #f2f2f2;
+}
+/* Learning Material Section */
+.dropdown-item1 {
+  /* Frame 111941 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 4px 0px 10px;
+
+width: 292px;
+height: 50px;
+
+/* Gray/50 */
+
+background: #F9FAFB;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
