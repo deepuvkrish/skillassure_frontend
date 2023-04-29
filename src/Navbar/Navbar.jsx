@@ -3,6 +3,7 @@ import { FaArrowLeft } from 'react-icons/fa';
 import './navbar.css';
 import { BrowserRouter as Router, NavLink } from 'react-router-dom';
 
+//navbar
 const NavBar = () => {
   const handleBackClick = () => {
     // Add your code to handle the back button click event here
