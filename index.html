@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .cards_custom {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 15px;
+        isolation: isolate;
+        position: relative;
+        width: 364.67px;
+        height: 265px;
+        top: 50px;
+        background: #FFFFFF;
+        border: 1px solid #EAECF0;
+        box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+        border-radius: 10px;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        z-index: 2;
+    }
+
+    .top_square {
+        position: absolute;
+        width: 82px;
+        height: 71px;
+        left: 20px;
+        top: 20px;
+        background: #F2F4F7;
+    }
+
+    .title_name {
+
+        width: 75px;
+        height: 28px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #344054;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        z-index: 2;
+    }
+
+
+    .title_desc {
+        width: 324.67px;
+        height: 60px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
+        z-index: 3;
+    }
+
+    .title_section {
+        position: relative;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .myStyle {
+        position: absolute;
+        background: linear-gradient(45deg, #0835a5, #3a93cf);
+        width: 364.67px;
+        height: 265px;
+        left: 1px;
+        top: 1px;
+        z-index: 3;
+        border-radius: 25%;
+    }
+
+    .myStyles {
+        position: absolute;
+        background: #FFF;
+        width: 384.67px;
+        height: 275px;
+        left: -300px;
+        top: -300px;
+        z-index: 1;
+    }
+</style>
+
+<body>
+
+
+    <div class="cards_custom" onmouseover="myFunction()" onmouseout="myFunctions()">
+        <div class="blue_color" id="blue">
+        </div>
+        <div class="top_square">
+        </div>
+        <div class="title_section" id="demo">
+            <span class="title_name">Aptitude</span>
+            <span class="title_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nemoc
+                quos aut incidunt deleniti quidem repellat</span>
+        </div>
+    </div>
+
+    <div id="myDIV">
+        <p>I am a myDIV.</p>
+    </div>
+
+    <script>
+        function myFunction() {
+            const list = document.getElementById("blue").classList;
+            list.replace("blue_color", "myStyle");
+        }
+        function myFunctions() {
+            const list = document.getElementById("blue").classList;
+            list.replace("myStyle", "blue_color");
+        }
+    </script>
+
+</body>
+
+</html>
